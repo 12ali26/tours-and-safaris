@@ -1,0 +1,216 @@
+body{
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+    background-color: #F8F8FF;
+    ;
+
+}
+header{
+    width: 100%;
+    height: 80vh;
+    /* margin-block-start: 0; */
+    background:url("IMAGES/conor-luddy-IVaKksEZmZA-unsplash 1.png") rgb(0 0 0);
+    background-size: 1250px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position-y:-5em ;
+    border-radius: 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+header > p{
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    line-height: 93px;
+    text-align: center;
+}
+.logo{
+    margin-inline-end: 0;
+    height: 6em;
+
+}
+ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    padding-inline: 3em;
+    transition: transform 0.3s ease ;
+    position: relative;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-weight:500;
+    position: relative;
+}
+
+.navbar li:hover{
+  text-decoration: underline 4px solid white;
+    transform: scale(1.1);
+}
+/* @media screen and (max-width: 800px){
+    .navbar li{
+        padding-inline: 1em;
+        }
+        header>p {
+            font-size: 4vw;
+            }
+            ul{
+                flex-direction: column;
+                gap: 2rem;
+                }
+                .navbar li a{
+                    font-size: 2vw;
+
+                }
+  } 
+         */
+
+
+@media screen and (max-width: 640px){
+    body{
+        background-size: auto 800px ;
+    }
+    .navbar li {padding: 15px;}
+    .navbar li a{font-size: 1em;}
+    .navbar button{
+        font-size: 12px;
+        height: auto;
+        padding: 8px 25px;
+
+    }
+}
+
+.navbar button{
+    height:3em;
+    /* text-align: center; */
+}
+.contact{
+    border-radius: 15px;
+    padding:15px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color:#d2b48c;
+}
+.content{
+    position: relative;
+    max-width: 80%;
+    color: white;
+    font-size: 37px;
+    font-weight: 700;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    transition: 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.layout-grid{
+    --gap:0.5em;
+    display: flex;
+    gap: var(--gap);
+}
+.grid{
+    flex:2;
+    margin-top: 1em;
+}
+
+
+.lara1{
+    --margin:1em;
+    background:url("IMAGES/gallery/wolfgang-hasselmann-yJTe4lNuVnE-unsplash 1.png") ;
+     width: auto;
+    height: 500px;
+    background-position: center;
+    background-size: 420px;
+    border-radius: 0.4em;
+    margin-block-end:1em;
+    margin-block-end:0.5em;
+    box-shadow: 2em black;
+
+}
+.lara2{
+   background:url("IMAGES/gallery/The Maasai Jump 1.png") ; 
+    width: auto;
+    height: 650px;
+    background: size 450px;
+    background-position: center;
+    border-radius: 0.4em;
+    margin-block-end:0.5em;
+    box-shadow: 2em black;
+}
+.lara3{
+   background:url("IMAGES/gallery/pawan-sharma-n1jB9kcXbpg-unsplash 1.png") ;
+    width: auto;
+    height: 550px; 
+    border-radius: 0.4em;
+    margin-block-end:0.5em;
+    box-shadow: 2em black;
+}
+.lara4{
+   background:url("IMAGES/gallery/Mt Kenya.jpg") ; 
+    width: auto;
+    height: 430px;
+    background-size: 410px;
+    border-radius: 0.4em;
+    margin-block-end:0.5em;
+    box-shadow: 2rem black;
+}
+.lara5{
+  background:url("IMAGES/gallery/Honeymoon Destinations 1.png") ; 
+   width: auto;
+    height: 490px; 
+    background-size: 400px;
+    border-radius: 0.4em;
+    margin-block-end:0.5em;
+    box-shadow: 2em black;
+}
+.lara6{
+   background: url("IMAGES/gallery/f58e8d99-1f14-4f95-bf59-6f6ffc8697c1 1.png"); 
+   width: auto;
+   height: 650px; 
+   background-size: 430px;
+   background-position: center;
+   border-radius: 0.4em;
+   margin-block-end:0.5em;
+   box-shadow: 2em black;
+}
+.lara7{
+   background:url("IMAGES/gallery/amazing zebra cute zebra baby animal print anime drawing animal art wild life photography wilderness 1.png") ;
+    width: auto;
+    height: 750px;
+    background-size: 400px;
+    margin-block-end:0.4em;
+    border-radius:0.5em; 
+    box-shadow: 2em black;
+}
+.lara8{
+   background:url("IMAGES/gallery/African bull elephant photographed stretching canopy heights 1.png") ;
+    width: auto;
+    height: 620px;
+    background-size: 410px;
+    border-radius: 0.4em;
+    margin-block-end:0.5em;
+    box-shadow: 2em black; 
+}
+.lara9{
+    background: url("IMAGES/Elephant Safari.jpg");
+     width: auto;
+    height: 600px;
+    background-size: 400px;
+    border-radius: 0.4em;
+    box-shadow: 2em black;
+}
